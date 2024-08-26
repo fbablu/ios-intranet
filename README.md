@@ -1,4 +1,4 @@
-# Spark - Intranet Prototype Built in Native Swift for iOS 
+<h1 align="center">Spark for Mobile - Intranet Suite for iOS</h1>
 
 <p align="center">
   <a target="_blank" href='https://developer.apple.com/swift/'><img src='https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white' alt="Swift"></a>
@@ -7,19 +7,16 @@
   <a target="_blank" href='https://developer.apple.com/xcode/'><img src='https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=xcode&logoColor=white' alt="Xcode"></a>
 </p>
 
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">
 
-Screenshots
------------
+  <img src="./demo/LaunchScreen.png" alt="Launch Screen" width="195"/>
+  <img src="./demo/Home.png" alt="Home Screen" width="195"/>
+  <img src="./demo/Search.gif" alt="Search Button Demo" width="195"/>
+  <img src="./demo/News.png" alt="News Section" width="195"/>
+  <img src="./demo/Events.png" alt="Events Screen" width="195"/>
 
-![Search Button Demo](./demo/Search.gif)
+</div>
 
-![Home Screen](./demo/Home.png)
-
-![News Section](./demo/News.png)
-
-![Events Section](./demo/Events.png)
-
-![Launch Screen](.demo/LaunchScreen.png)
 
 
 ## Overview
@@ -78,4 +75,4 @@ Select the target device (either a simulator or a physical iPhone), and click on
 License & Disclaimer
 -------
 
-This project is licensed under the MIT License. See the LICENSE file for more details. This project was developed as a prototype for educational and demonstration purposes only. All data is publicly available from the [Jenner & Block](https://www.jenner.com) website.
+This project is licensed under the MIT License. See the LICENSE file for more details. This project was developed as a prototype for educational and demonstration purposes only. All data is publicly available from the [Jenner & Block](https://www.jenner.com) website. Any information requested to be removed will be removed.
