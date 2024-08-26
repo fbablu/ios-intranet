@@ -1,33 +1,32 @@
 //
-//  iOS_IntranetApp.swift
-//  iOS Intranet
+//  SparkApp.swift
+//  Spark
 //
-//  Created by Fardeen Bablu on 8/23/24.
+//  Created by Fardeen Bablu on 8/2/24.
 //
 
 import SwiftUI
 import SwiftData
 
+/// The main entry point for the Spark application.
 @main
-struct iOS_IntranetApp: App {
+struct SparkApp: App {
+    /// Shared model container for SwiftData.
     var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
+        let schema = Schema([Item.self])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
+        
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {
-            fatalError("Could not create ModelContainer: \(error)")
+            fatalError("Failed to create ModelContainer: \(error)")
         }
     }()
-
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
-        testing
     }
 }

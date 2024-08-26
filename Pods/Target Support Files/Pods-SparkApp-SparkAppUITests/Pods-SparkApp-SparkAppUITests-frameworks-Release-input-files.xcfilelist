@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-SparkApp-SparkAppUITests/Pods-SparkApp-SparkAppUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
