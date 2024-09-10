@@ -45,8 +45,8 @@ To get started with the project, follow these steps:
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/yourusername/spark-ios-app.git
-cd spark-ios-app
+git clone https://github.com/yourusername/ios-intranet.git
+cd ios-intranet
 ```
 
 ### 2. Install Dependencies
